@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const HomePage = (props) => {
+const HomePage = () => {
   const [project, setProject] = useState([]);
 
   useEffect(() => {

@@ -16,7 +16,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div style={{ padding: 30 }}>
+    <div className="app" style={{ padding: 30 }}>
     <ContextConnectWallet.Provider value={{ connectWallet, setConnectWallet }}>
       <Navbar />
       <Routes>
